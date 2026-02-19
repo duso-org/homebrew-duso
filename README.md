@@ -24,4 +24,4 @@ brew upgrade duso
 
 ## License
 
-Apache-2.0 (same as [Duso](https://github.com/duso-org/duso))
+Apache License 2.0 (see [LICENSE](/LICENSE) file for details) © 2026 Ludonode LLC
