@@ -1,27 +1,28 @@
 class Duso < Formula
-  desc "Scripting language for AI agent orchestration"
-  homepage "https://github.com/duso-org/duso"
+  desc "Batteries Included Server Engine"
+  homepage "https://duso.rocks"
   license "Apache-2.0"
+  version "1.6.21"
 
   on_macos do
     on_intel do
-      url "https://github.com/duso-org/duso/releases/download/v1.4.3-462/duso-macos-intel.zip"
-      sha256 "881a3aa2a4748a37caed78f5ea17d3444406be23a6ca0e98a7dc431af8f31628"
+      url "https://github.com/duso-org/duso/releases/download/v1.6.21/duso-macos-intel.zip"
+      sha256 "f1b3c76c9e07a77be2d807fc43656419aa9fe23d2f84bd8b82821afc216297ea"
     end
     on_arm do
-      url "https://github.com/duso-org/duso/releases/download/v1.4.3-462/duso-macos-silicon.zip"
-      sha256 "c8af34c5da0a4874b409d1c410e40a5676714bed1f3cdef7517767fd8f7483c1"
+      url "https://github.com/duso-org/duso/releases/download/v1.6.21/duso-macos-silicon.zip"
+      sha256 "cb3ea481d17e47ae87ade97f78fdaf8f44ecc99e29af18652316700e96ad03c2"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/duso-org/duso/releases/download/v1.4.3-462/duso-linux-amd64.tar.gz"
-      sha256 "082296b1f311405727502ec4fc7c96760d7ea0278f781e7085e88fc6a98814a5"
+      url "https://github.com/duso-org/duso/releases/download/v1.6.21/duso-linux-amd64.tar.gz"
+      sha256 "cf8e2eb11d5e4e1258b912df4795da7651aac7a6ab759d7fac3a23b411f9f927"
     end
     on_arm do
-      url "https://github.com/duso-org/duso/releases/download/v1.4.3-462/duso-linux-arm64.tar.gz"
-      sha256 "a1ed67b85b61f60986bdb1a35de632105aeedaa16651d25985b571c510a58fa2"
+      url "https://github.com/duso-org/duso/releases/download/v1.6.21/duso-linux-arm64.tar.gz"
+      sha256 "e8d83a8f14826a2d849c9d706259cd9654728de7541c687e0ab9bf8a0fc335b1"
     end
   end
 
